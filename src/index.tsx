@@ -5,11 +5,11 @@ import App from "./containers/App";
 import * as serviceWorker from "./serviceWorker";
 import {configuredStore} from "./store";
 import { Provider } from "react-redux";
-
+const store = configuredStore();
 function render(Component: any) {
   ReactDOM.render(
       (
-          <Provider store={configuredStore()}>
+          <Provider store={store}>
               <Component />
           </Provider>
       ),

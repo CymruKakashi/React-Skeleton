@@ -21,7 +21,7 @@ export default function Text() {
             <Row>
                 <Button onClick={() => {
                     dispatch(clear());
-                }}>Set</Button>
+                }}>Clear</Button>
             </Row>
         </Container>
     );

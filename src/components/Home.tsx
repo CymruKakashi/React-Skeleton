@@ -6,7 +6,7 @@ export default class Home extends React.Component {
         return (
         <>
             <Container>
-                <h1> Hello World</h1>
+                <h1>Hello World</h1>
             </Container>
         </>
         );
