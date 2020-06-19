@@ -9,7 +9,7 @@ export default class About extends React.Component {
         <>
             <Container>
                 <h1>Hello About</h1>
-                <Link to={routes.ABOUT}>Home</Link>
+                <Link to={routes.HOME}>Home</Link>
             </Container>
         </>
         );
