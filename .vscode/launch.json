@@ -5,7 +5,7 @@
         "type": "firefox",
         "request": "launch",
         "reAttach": true,
-        "name": "Launch Firefox",
+        "name": "Firefox",
         "url": "http://localhost:3000",
         "webRoot": "${workspaceFolder}/src",
         "pathMappings": [
