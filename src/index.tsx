@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.scss";
+import "./index.css";
 import App from "./containers/App";
 import * as serviceWorker from "./serviceWorker";
 import {configuredStore} from "./store";
 import { Provider } from "react-redux";
+import "bootstrap/dist/css/bootstrap.min.css";
 const store = configuredStore();
 function render(Component: any) {
   ReactDOM.render(

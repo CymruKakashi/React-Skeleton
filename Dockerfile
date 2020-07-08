@@ -2,7 +2,7 @@
 FROM node:14 AS build
 WORKDIR /src
 COPY . .
-RUN npm rebuild node-sass && yarn build
+RUN yarn build
 #copy built files to the Nginx server for runtime
 FROM nginx:1.19 as runtime
 WORKDIR /app
